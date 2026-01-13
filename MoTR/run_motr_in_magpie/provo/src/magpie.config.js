@@ -7,7 +7,7 @@ export default {
   // this will be used in prolific mode
   completionUrl: 'https://app.prolific.co/submissions/complete?cc=C1I4D2OB',
   contactEmail: 'cui.ding@uzh.ch',
-  // Either 'debug', 'directLink' or 'prolific'
+  // Either 'debug', 'directLink' or 'prolific' .
   mode: 'prolific',
   language: 'en'
 };
