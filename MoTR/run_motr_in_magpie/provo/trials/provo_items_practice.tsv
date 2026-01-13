@@ -1,2 +1,3 @@
-experiment	experiment_id	condition	condition_id	item_id	text	question	response_true	response_distractors
-provo	2	practice	2	37	John Thornton asked little of man or nature. He was unafraid of the wild. With a handful of salt and a rifle he could plunge into the wilderness and fare wherever he pleased and as long as he pleased. 	Was John Thornton afraid of the wild? 	No	Yes
+experiment	experiment_id	condition	condition_id	item_id	text	question	response_true	response_false
+training	2	practice	2	1	Das hier ist ein Trainings-Satz. Hier kann man das Lesen ausprobieren. Jetzt lesen Sie: Hunden essen gerne Würstchen. 	Essen Hunde gerne Würstchen? 	ja	nein
+training	2	practive	2	2	Jana erzählt, dass sie gestern auf einem Konzert war. Die Band hat am Ende noch eine Zugabe gespielt, erzählt Jana der Mutter. Jana hat sich ein T-Shirt gekauft.	Hat Jana ein Selfie mit der Band gemacht?	nein	ja

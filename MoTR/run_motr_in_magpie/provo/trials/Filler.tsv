@@ -1,0 +1,13 @@
+experiment	experiment_id	condition	condition_id	item_id	text	question	response_true	response_false
+filler	9	fill	90	901	Opa erzählt, dass Isla sich einen neuen Rucksack gekauft hat. Der Rucksack ist grün, sagt Opa zu Milan. Ein roter Rucksack wäre hübscher gewesen.	Ist Islas Rucksack rot?	nein	ja
+filler	9	fill	90	902	Opa erzählt, dass Lily mit ihren Großeltern in den Urlaub gefahren ist. Sie waren in Österreich, sagt Opa zu Lina. Das Hotel war ziemlich teuer.	War Lily in Österreich?	ja	nein
+filler	9	fill	90	903	Milan erzählt, dass Olivia morgen nachsitzen muss. Sie hat bei der Deutscharbeit abgeschrieben, sagt Milan zu Sara. Der Lehrer hat auch einen Brief an ihre Eltern geschrieben.	Muss Olivia heute nachsitzen?	nein	ja
+filler	9	fill	90	904	Milan erzählt, dass Isabella heute den Zug verpasst hat. Sie ist zu spät aufgestanden, sagt Milan zu Sara. Isabella verschläft montags immer.	Hat Isabella heute verschlafen?	ja	nein
+filler	9	fill	90	905	Mama erzählt, dass Helena jetzt im Supermarkt arbeitet. Dort muss sie auch am Wochenende arbeiten, sagt Mama zu Papa. An Weihnachten hat sie aber frei.	Muss Helena an Weihnachten im Supermarkt arbeiten?	nein	ja
+filler	9	fill	90	906	Mama erzählt, dass der neue Kiosk eröffnet wurde. Dort kann man sogar Schokomuffins kaufen, sagt Mama zu Sara. Die sind allerdings ziemlich teuer.	Kosten die Schokomuffins viel?	ja	nein
+filler	9	fill	90	907	Papa erzählt, dass Noah heute sein Motorrad repariert. Das Licht ist kaputt, sagt Papa zu Opa. Das Motorrad ist auch schon ziemlich alt.	Ist die Bremse vom Motorrad kaputt?	nein	ja
+filler	9	fill	90	908	Papa erzählt, dass Theos Fahrrad weg ist. Theo hat es heute Morgen erst gemerkt, sagt Papa zu Oma. In letzter Zeit werden viele Fahrräder geklaut.	Haben Diebe Theos Fahrrad mitgenommen?	ja	nein
+filler	9	fill	90	909	Sara erzählt, dass Josh auf dem Flohmarkt war. Er wollte sein Skateboard verkaufen, sagt Sara zu Opa. Er wollte zwanzig Euro dafür haben.	Braucht Josh sein Skateboard noch?	nein	ja
+filler	9	fill	90	910	Sara erzählt, dass Pedro mit Ella im Kino war. Pedro wollte sie schon ganz lange einladen, sagt Sara zu Lina. Ella hat sich sehr gefreut.	Waren Ella und Pedro im Kino?	ja	nein
+filler	9	fill	90	911	Lina erzählt, dass ein Reporter in der Schule war. Er wollte ein Interview mit dem Direktor machen, sagt Lina zu Sara. Der Direktor war bestimmt nervös.	Wollte der Reporter die Schüler befragen?	nein	ja
+filler	9	fill	90	912	Lina erzählt, dass jemand seinen Hund sucht. Überall hängen Zettel, sagt Lina zu Milan. Bestimmt hat der Hund sich verlaufen.	Möchte der Besitzer den Hund wieder haben?	ja	nein
