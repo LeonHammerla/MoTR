@@ -4,7 +4,7 @@
 <template>
   <Experiment title="Mouse tracking for Reading" translate="no">
 
-    <Screen :title="'Welcome'" class="instructions" :validations="{
+    <Screen :title="'Willkommen!'" class="instructions" :validations="{
         SubjectID: {
           minLength: $magpie.v.minLength(2)
         }
@@ -13,54 +13,37 @@
         <div style="width: 40em; margin: auto;">
 
         <div style="background-color: lightgrey; padding: 10px;">
-            <b> Information About this Study </b>
+            <b> Vielen Dank fürs Mitmachen! </b>
         </div>
         <p>
-          We would like to ask you if you are willing to participate in our research project. Your participation is voluntary. Please read the text below carefully and ask the conducting person about anything you do not understand or would like to know.
+          Vielen Dank, dass Sie bereit sind an unserer Studie teilzunehmen. Bei diesem Experiment müssen Sie Sätze lesen. Danach beantworten Sie Fragen dazu. Wenn Sie lesen, sehen Sie immer nur einen bestimmten Teil. Mit der Maus können Sie steuern, welcher Teil des Textes sichtbar ist. Bevor wir mit dem Experiment anfangen, brauchen wir Ihre Zustimmung.
         <br><br>
-          <b>What is investigated and how?</b> You are being asked to take part in a research study being done by Ethan Wilcox, a researcher at the Swiss Federal Institute of Technology. This study will help us learn about how people read. It will take you around 20 minutes to complete.
+          Sie können nur teilnehmen, wenn Deutsch Ihre Muttersprache ist. Das heißt: Wenn Sie Deutsch schon als Kind gelernt haben. 
         <br><br>
-          <b>Who can participate?</b> You can participate only if you are an adult native speaker of English.
-        <br><br>
-         <b>What am I supposed to do as a participant?</b> If you choose to be in the study, you will use the computer mouse to read sentences in English and answer questions about them.
-        <br><br>
-          <b>What are my rights during participation?</b> Your participation in this study is voluntary. If you choose to participate, you may change your mind and leave the study at any time by closing the web page without specifying reasons and without any disadvantages.
-        <br><br>
-          <b>What risks and benefits can I expect?</b> There are no foreseeable risks for participating in this study.
-        <br><br>
-          <b>Will I be compensated for participating?</b> If you participate you will be compensated for your time following the amount specified on prolific.co.
-        <br><br>
-          <b>What data is collected from me and how is it used?</b> During this study, we will track the position of your mouse on screen. The data from this study may be presented at scientific conferences and published in scientific journals, as well as in online repositories. All data will remain anonymous. Members of the ETH Zurich Ethics Commission may access the original data for examination purposes. Strict confidentiality will be observed at any time.
-        <br><br>
-          <b> What are my rights to my personal data? </b> You can request information about the personal data collected from you at any time and without giving reasons. You can also request that it be rectified, handed over to you, barred for processing or erased. To do so, please contact the person indicated below.
-        <br><br>
-          <b>Who funds this study?</b> This study is funded by an ETH Postdoctoral Fellowship grant, awarded to Ethan Wilcox.
-        <br><br>
-          <b> How am I insured? </b> Although there are no foreseeable risks for participation, any adverse health effects that are directly caused by a study and can be demonstrated to be attributable to fault on the part of the project team or ETH Zurich are covered by ETH's liability insurance.
-        <br><br>
-          <b> Who reviewed this study?  </b> This study was examined by the ETH Zurich Ethics Commission as proposal EK 2023-N-03
-
-        <br><br>
-          <b> Complaints Office:</b> The secretariat of the ETH Zurich Ethics Committee is available to help you with complaints in connection with your participation. Contact: ethics@sl.ethz.ch or 0041 44 632 85 72.
-        <br><br>
-          <b> General Contact: </b> Ethan Gotlieb Wilcox, Department of Computer Science, ETH Zurich, OAS K.20, Binzmühlestrasse 13, 8050 Zürich, Switzerland, ethan.wilcox@inf.ethz.ch <br>
+          Sie können immer mit der Studie aufhören. Das hat keine Nachteile für Sie.
+		<br><br>
+		Nach dem Experiment bitten wir Sie noch, an zwei Tests teilzunehmen. Beim ersten Test geht es um Ihren Wortschatz. Beim zweiten Test geht es um Ihr Gedächtnis. Nach dem Experiment werden Sie für die Tests auf eine neue Weseite weitergeleitet.
+		 <br><br>
         </p>
 
         <br>
         <div style="background-color: lightgrey; padding: 10px;">
-            <b> Consent Form </b>
+            <b> Einverständniserklärung </b>
         </div>
         <br>
-        I, the participant, confirm by clicking the button below: <br>
-        <div style="padding-left: 30px"> • I have read and understood the study information. My questions have been answered completely and to my satisfaction. </div>
-        <div style="padding-left: 30px">• I comply with the inclusion and exclusion criteria for participation described above. I am aware of the requirements and restrictions to be observed during the study. </div>
-        <div style="padding-left: 30px">• I have had enough time to decide about my participation. </div>
-        <div style="padding-left: 30px">• I participate in this study voluntarily and consent that my personal data be used as described above.</div>
-        <div style="padding-left: 30px">• I understand that I can stop participating at any moment.</div>
+        Ich stimme der Teilnahme an dieser Studie zu. Mir ist bewusst <br>
+        <div style="padding-left: 30px">• dass meine Daten in pseudonymisierter Form gespeichert und eventuell veröffentlicht werden, </div>
+        <div style="padding-left: 30px">• dass ich freiwillig teilnehme und nicht teilnehmem muss,</div>
+        <div style="padding-left: 30px">• und dass ich jederzeit mit der Teilnahme aufhören kann.</div>
         <br>
 
-          <tr>
-          <td>Please enter your Prolific ID to continue:&nbsp</td><td><input name="TurkID" type="text" class="obligatory" v-model="$magpie.measurements.SubjectID"/></td>
+          
+          Geben Sie hier bitte ein selbstgewähltes Codeword ein.
+		  Dabei kann es sich um eine beliebige Kombination von Buchstaben und Zahlen handeln. 
+		  Das Codeword sollte keine Rückschlüsse auf Ihren Namen zulassen. 
+		  Zum Nachweis, dass Sie am Experiment teilgenommen haben, gehen Sie nach Beendigung des Experiments zur Olat-Seite des Kurses und geben Sie das Codeword im Fragebogen "Codeword für Internetexperiment" 
+		  ein.<br><br>
+		  <tr> <td>&nbsp</td><td style="text-align: center;"><input name="TurkID" type="text" class="obligatory" v-model="$magpie.measurements.SubjectID"/></td>
           </tr>
           <tr>
 
@@ -70,24 +53,36 @@
             $magpie.measurements.SubjectID&&
             !$magpie.validateMeasurements.SubjectID.$invalid
             ">
-          <br> By clicking on the button below you consent to participating in this study: <br><br>
+          <br> Hier geht es weiter zur Studie: <br><br>
           <br />
           <button 
             @click="$magpie.addExpData({ SubjectId: $magpie.measurements.SubjectID}); $magpie.nextScreen()">
-            Proceed
+            Weiter
           </button>
 
           </div>
         </Screen>
 
 
-    <InstructionScreen :title="'Instruction'">
+    <InstructionScreen :title="'Anleitung'">
 <!-- 
       <p>Please use the "Fullscreen Mode" for the duration of the experiment:
         <a href="javascript:void(0)" @click="turnOnFullScreen">Fullscreen Mode</a>
       </p>
  -->
-      <p>In this study, you will read short texts and answer questions about them. However, unlike in normal reading, the texts will be blurred. In order to bring the text into focus move your mouse over it. Take as much time to read the text as you need in order to understand it. When you are done reading, answer the question at the bottom and click “next” to move on.</p>
+      <p style="margin-bottom: 5em;">In diesem Experiment müssen Sie kleine Geschichten lesen. Aber den Text kann man nur sehen, wenn Sie mit der Maus darüber fahren. Lesen Sie so schnell wie möglich. Aber am wichtigsten ist: Sie müssen die Fragen am Ende des Textes richtig beantworten können.<br><br>
+	  In den Geschichten berichtet ein Schüler über die Gespräche seiner Familie beim Abendessen. Die Familienmitglieder sind den ganzen Tag unterwegs. Am Abend haben alle viel zu erzählen.
+	  Der Schüler selbst erzählt, was er am Tag so erlebt hat und was er in der Schule gehört hat. Seine Geschwister, Sara, Milan und Lina erzählen ebenfalls, was es Neues gibt. Und auch die Eltern und Großeltern berichten etwas.
+	  Jede Geschichte sehen Sie zunächst nur verschwommen. Um die 
+verschwommene Schrift lesen zu können, müssen Sie mit der Maus 
+darüberfahren. Fahren Sie mit der Maus vom Beginn der Geschichte bis 
+zum Ende und lesen sie aufmerksam, mit ihrer normalen Geschwindigkeit. 
+Merken Sie sich dabei, was passiert ist. Am Ende gibt es zu jeder 
+Geschichte eine Frage, die Sie mit ja oder nein beantworten sollen. 
+Beantworten Sie die Frage zügig, anschließend erscheint dann die 
+nächste Geschichte. </br>
+Gleich können Sie das Lesen mit der Maus üben. Drücken Sie dazu auf 
+den "Weiter"-Knopf.</p>
     </InstructionScreen>
 
     <template v-for="(trial, i) of trials">
@@ -96,7 +91,9 @@
           <form>
             <input type="hidden" class="item_id" :value="trial.item_id">
             <input type="hidden" class="experiment_id" :value="trial.experiment_id">
+			<input type="hidden" class="experiment_num" :value="trial.experiment_num">
             <input type="hidden" class="condition_id" :value="trial.condition_id">
+			<input type="hidden" class="condition_num" :value="trial.condition_num">
           </form>
           <div class="oval-cursor"></div>
           <template>
@@ -112,7 +109,7 @@
             </div>
           </template>
           <button v-if="showFirstDiv" style= "bottom:40%; transform: translate(-50%, -50%)" @click="toggleDivs" :disabled="!isCursorMoving">
-          Done
+          Fertig
           </button>
 
           <div v-else style = "position:absolute; bottom:15%; text-align: center; width: 100%; min-width: -webkit-fill-available;" >
@@ -129,24 +126,18 @@
           </div>
           
           <button v-if="$magpie.measurements.response" style="transform: translate(-50%, -50%)" @click="toggleDivs(); $magpie.saveAndNextScreen()">
-            Next
+            Weiter
           </button>
         </Slide>
       </Screen>
     </template>
 <Screen>
-  <p>1. Which input device are you using for this experiment?</p>
-    <MultipleChoiceInput
-        :response.sync= "$magpie.measurements.device"
-        orientation="horizontal"
-        :options="['Computer Mouse', 'Computer Trackpad', 'Other']" />
-  <br>
-  <br>
-  <p>2. Which hand are you using during this experiment?</p>
+ 
+  <p>Welche Hand haben Sie während des Experiments verwendet?</p>
     <MultipleChoiceInput
         :response.sync= "$magpie.measurements.hand"
         orientation="horizontal"
-        :options="['Left', 'Right', 'Both']" />
+        :options="['links', 'rechts', 'beide']" />
   <button style= "bottom:30%; transform: translate(-50%, -50%)" @click="$magpie.saveAndNextScreen();">Submit</button>
 </Screen>
 
@@ -156,25 +147,26 @@
 
 <script>
 // Load data from csv files as javascript arrays with objects
-import provo_list1 from '../trials/provo_items_list1.tsv';
-import provo_list2 from '../trials/provo_items_list2.tsv';
-import provo_list3 from '../trials/provo_items_list3.tsv';
+import stimuli_list1 from '../trials/stimuli_list1.tsv';
+import stimuli_list2 from '../trials/stimuli_list2.tsv';
+import stimuli_list3 from '../trials/stimuli_list3.tsv';
+import stimuli_list4 from '../trials/stimuli_list4.tsv';
 import provo_practice from '../trials/provo_items_practice.tsv';
 import _ from 'lodash';
 
 export default {
   name: 'App',
   data() {
-    const lists = [provo_list1, provo_list2, provo_list3];
+    const lists = [stimuli_list1, stimuli_list2, stimuli_list3, stimuli_list4];
     const chosenItems = lists[Math.floor(Math.random() * lists.length)]; // randomly choose one of the lists
     const shuffledItems = _.shuffle(chosenItems); 
     const trials = _.concat(provo_practice, shuffledItems);
     // Create a new column in localCoherences called 'response_options'
-    // that concatenates the word in response_true with the two words in response_distractors
+    // that concatenates the word in response_true with the two words in response_false
     const updatedTrials = trials.map(trial => {
       return {
         ...trial,
-        response_options: _.shuffle(`${trial.response_true}|${trial.response_distractors}`.replace(/ ?["]+/g, "").split("|")),
+        response_options: _.shuffle(`${trial.response_true}|${trial.response_false}`.replace(/ ?["]+/g, "").split("|")),
       }
     });
     return {
@@ -208,6 +200,8 @@ export default {
               Experiment: this.$el.querySelector(".experiment_id").value,
               Condition: this.$el.querySelector(".condition_id").value,
               ItemId: this.$el.querySelector(".item_id").value,
+			  ExperimentNum: this.$el.querySelector(".experiment_num").value,
+			  ConditionNum: this.$el.querySelector(".condition_num").value,
               Index: this.currentIndex,
               Word: currentElement.innerHTML,
               mousePositionX: this.mousePosition.x,
@@ -226,6 +220,8 @@ export default {
               Experiment: this.$el.querySelector(".experiment_id").value,
               Condition: this.$el.querySelector(".condition_id").value,
               ItemId: this.$el.querySelector(".item_id").value,
+			  ExperimentNum: this.$el.querySelector(".experiment_num").value,
+			  ConditionNum: this.$el.querySelector(".condition_num").value,
               Index: this.currentIndex,
               mousePositionX: this.mousePosition.x,
               mousePositionY: this.mousePosition.y,
