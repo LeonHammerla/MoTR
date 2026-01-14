@@ -19,6 +19,9 @@ module.exports = {
     lintStyleOnBuild: false,
     stylelint: {}
   },
+    devServer: {
+    allowedHosts: 'all'
+  },
   	publicPath:
     process.env.NODE_ENV === 'production'
       ? '/MoTR/MoTR/run_motr_in_magpie/provo/'
