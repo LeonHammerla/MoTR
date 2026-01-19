@@ -11,6 +11,6 @@ export default {
     contactEmail: 'eichler@lingua.uni-frankfurt.de',
   // Either 'debug', 'directLink' or 'prolific' .
   // mode: 'prolific',
-    mode: 'directLink',
-  language: 'en'
+    mode: 'prolific',
+  language: 'de'
 };
