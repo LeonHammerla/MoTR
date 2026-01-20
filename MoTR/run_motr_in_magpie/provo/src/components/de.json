@@ -1,1 +1,64 @@
+{
+  "screens": {
+    "AwaitIteratedResultScreen": {
+      "description": "Warte auf die Resultate der vorherigen iteration dieses Experiments."
+    },
+    "ConnectInteractiveScreen": {
+      "description": "Die Verbindung mit dem Echtzeit-Server wird aufgebaut und auf andere Teilnehmer für dieses interaktive Experiment wird gewartet."
+    },
+    "EyetrackingCalibrationScreen": {
+      "start": "Augentracking wird geladen.",
+      "instruction": "Bitte folgen Sie dem roten Punkt.",
+      "error": "Etwas ist schief gelaufen. Bitte laden Sie die Seite neu."
+    },
+    "EyetrackingValidationScreen": {
+      "instruction": "Bitte schauen Sie auf den blauen Punkt in der Mitte des Bildschirms",
+      "error": "Etwas ist schief gelaufen. Bitte laden Sie die Seite neu."
+    },
+    "PostTestScreen": {
+      "instruction": "Das Beantworten der folgenden fragen ist optional, aber Ihre Antworten helfen uns die Ergebnisse auszuwerten.",
+      "age": "Alter",
+      "gender": "Geschlecht",
+      "male": "männlich",
+      "female": "weiblich",
+      "otherGender": "divers",
+      "education": "Bildungsgrad",
+      "educationBelowHighschool": "kein Abitur",
+      "educationHighschool": "Abitur",
+      "educationCollege": "Bachelor",
+      "educationHigher": "Höherer Abschluss",
+      "nativeLanguages": "Muttersprachen",
+      "nativeLanguagesExplanation": "die Sprache(n) die bei Ihnen als Kind zu Hause gesprochen wurde(n)",
+      "comments": "Sonstige Kommentare"
+    },
+    "SubmitResultsScreen": {
+      "waiting": "Ihre Daten werden übermittelt, bitte warten...",
+      "done": "Alles erledigt. Vielen Dank! Die Seite wird automatisch zu den zusätzlichen Tests weitergeleitet.",
+      "error": "Beim Hochladen der Ergebnisse ist ein Problem aufgetreten.",
+      "manual": "Um Ihre wertvolle Zeit nicht zu verschwenden, klicken Sie bitte auf die Schaltfläche unten, um Ihre Daten herunterzuladen, und führen Sie dann eine der folgenden Optionen aus:",
+      "contact": "Option 1: Senden Sie die Datei als E-Mail-Anhang an den Autor:",
+      "upload": "Option 2: Laden Sie die Daten anonym über folgenden Link hoch:",
+      "thanks": "Vielen Dank für Ihre Teilnahme!",
+      "download": "Daten herunterladen"
+    }
+  },
+  "general": {
+    "nextButton": "Weiter",
+    "start": "Start",
+    "go": "Los",
+    "send": "Senden"
+  },
+  "interactive": {
+    "Chat": {
+      "messageLabel": "Schreiben Sie Ihre Nachricht an die anderen Teilnehmenden hier.",
+      "statusYouJoined": "Sie sind dem Chat beigetreten",
+      "statusYouLeft": "Sie haben den Chat verlassen",
+      "statusParticipantJoined": "{user} ist dem Chat beigetreten",
+      "statusParticipantLeft": "{user} hat den Chat verlassen"
+    },
+    "general": {
+      "aborted": "Das Experiment kann leider nicht zu Ende geführt werden, weil eine*r der Teilnehmenden die Sitzung verlassen hat. Sie springen nun zum Ende des Experiments."
+    }
+  }
+}
 
