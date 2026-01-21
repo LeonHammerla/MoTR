@@ -154,14 +154,6 @@ import stimuli_list4 from '../trials/stimuli_list4.tsv';
 import provo_practice from '../trials/provo_items_practice.tsv';
 import _ from 'lodash';
 
-import de.json from './components/de.json';
-
-export default {
-name: 'App',
-components: {
-de.json
-},
-
 export default {
   name: 'App',
   data() {
@@ -383,5 +375,4 @@ export default {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     }
-
 </style>
