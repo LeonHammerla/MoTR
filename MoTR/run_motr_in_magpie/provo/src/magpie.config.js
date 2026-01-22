@@ -1,5 +1,5 @@
 export default {
-  experimentId: '2',
+  experimentId: '1',
   serverUrl: 'https://magpie.neglab.de',
   // serverUrl: 'https://gentle-everglades-00112.herokuapp.com/',
   socketUrl: 'wss://magpie.neglab.de/socket',
