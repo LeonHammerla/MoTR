@@ -18,8 +18,6 @@
         <p>
           Vielen Dank, dass Sie bereit sind an unserer Studie teilzunehmen. Bei diesem Experiment müssen Sie Sätze lesen. Danach beantworten Sie Fragen dazu. Wenn Sie lesen, sehen Sie immer nur einen bestimmten Teil. Mit der Maus können Sie steuern, welcher Teil des Textes sichtbar ist. Bevor wir mit dem Experiment anfangen, brauchen wir Ihre Zustimmung.
         <br><br>
-          Sie können nur teilnehmen, wenn Deutsch Ihre Muttersprache ist. Das heißt: Wenn Sie Deutsch schon als Kind gelernt haben. 
-        <br><br>
           Sie können immer mit der Studie aufhören. Das hat keine Nachteile für Sie.
 		<br><br>
 		Nach dem Experiment bitten wir Sie noch, an zwei Tests teilzunehmen. Beim ersten Test geht es um Ihren Wortschatz. Beim zweiten Test geht es um Ihr Gedächtnis. Nach dem Experiment werden Sie für die Tests auf eine neue Webseite weitergeleitet.
@@ -377,3 +375,4 @@ export default {
     }
 
 </style>
+
