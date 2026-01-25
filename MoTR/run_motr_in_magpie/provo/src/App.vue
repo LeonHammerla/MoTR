@@ -22,7 +22,7 @@
         <br><br>
           Sie können immer mit der Studie aufhören. Das hat keine Nachteile für Sie.
 		<br><br>
-		Nach dem Experiment bitten wir Sie noch, an zwei Tests teilzunehmen. Beim ersten Test geht es um Ihren Wortschatz. Beim zweiten Test geht es um Ihr Gedächtnis. Nach dem Experiment werden Sie für die Tests auf eine neue Weseite weitergeleitet.
+		Nach dem Experiment bitten wir Sie noch, an zwei Tests teilzunehmen. Beim ersten Test geht es um Ihren Wortschatz. Beim zweiten Test geht es um Ihr Gedächtnis. Nach dem Experiment werden Sie für die Tests auf eine neue Webseite weitergeleitet.
 		 <br><br>
         </p>
 
@@ -375,4 +375,5 @@ export default {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     }
+
 </style>
